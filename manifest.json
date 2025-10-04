@@ -1,0 +1,35 @@
+{
+  "name": "Kanban Board - Task Management",
+  "short_name": "Kanban Board",
+  "description": "A modern Kanban board application for task management with drag-and-drop, tags, attachments, and more",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "./image/kanban_board.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./image/kanban_board.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Create New Task",
+      "short_name": "New Task",
+      "description": "Create a new task",
+      "url": "/?action=new",
+      "icons": []
+    }
+  ]
+}

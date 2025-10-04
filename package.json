@@ -1,0 +1,13 @@
+{
+  "name": "kanban-board",
+  "version": "1.0.0",
+  "description": "เว็บแอปพลิเคชัน Kanban Board สำหรับการจัดการงานและโปรเจค พัฒนาด้วย Vanilla JavaScript, TailwindCSS และ IndexedDB สำหรับการจัดเก็บข้อมูลในเครื่อง",
+  "scripts": {
+    "format": "prettier --write \"**/*.{js,css,html,md}\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^3.6.2",
+    "prettier-plugin-tailwindcss": "^0.6.14"
+  }
+}
